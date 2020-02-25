@@ -1,0 +1,81 @@
+/*code table*/
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+}
+
+th:nth-child(1) {
+    width: 30%;
+}
+
+th:nth-child(2) {
+    width: 20%;
+}
+
+th:nth-child(3) {
+    width: 35%;
+}
+
+th:nth-child(4) {
+    width: 15%;
+}
+
+th, td {
+    padding: 20px;
+    text-align: center;
+}
+
+th {
+    letter-spacing: 2px;
+}
+
+td {
+    letter-spacing: 1px;
+}
+
+html {
+    font-family: 'helvetica neue', Arial, Helvetica, sans-serif;
+}
+
+thead th {
+    font-family: 'Rock Salt', cursive;
+}
+
+caption {
+    font-family: 'Rock Salt', cursive;
+    padding: 20px;
+    font-style: italic;
+    caption-side: bottom;
+    color: #666;
+    text-align: right;
+    letter-spacing: 1px;
+}
+/*------------End Code table-------------*/
+/*Code h tag*/
+@media Screen and (min-width: 601px) {
+    body h1 {
+        font-size: 80px;
+    }
+}
+
+@media Screen and (max-width: 600px) {
+    body h1 {
+        font-size: 30px;
+    }
+}
+
+.style-h1 {
+    font-family: 'Rock Salt', cursive;
+}
+
+body img {
+    max-width: 100%;
+}
+
+
+
+
+
+
